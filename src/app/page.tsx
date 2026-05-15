@@ -5,6 +5,7 @@ import { CtaSection } from "@/components/landing/cta-section";
 import { FaqSection } from "@/components/landing/faq-section";
 import { HeroSection } from "@/components/landing/hero-section";
 import { ServicesSection } from "@/components/landing/services-section";
+import { TestimonialSection } from "@/components/landing/testimonial-section";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <ServicesSection />
+        <TestimonialSection />
         <AboutSection />
         <FaqSection />
         <ContactSection />
