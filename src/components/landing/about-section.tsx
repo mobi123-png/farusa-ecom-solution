@@ -2,6 +2,7 @@ import { ArrowRight, Compass, Sparkles, Target } from "lucide-react";
 
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
+import { Gallery } from "./gallery";
 
 const principles = [
   {
@@ -46,6 +47,8 @@ export function AboutSection() {
               </div>
             </div>
           </Reveal>
+
+          <Gallery />
 
           <div className="space-y-5">
             {principles.map((principle, index) => {
